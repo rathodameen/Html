@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="section">Applicant Details</div>
+    <label>Name *</label>
+    <input type="text" maxlength="20" required>
+    
+    <label>Father's / Guardian's Name *</label>
+    <input type="text" required>
+    
+    <label>Date of Birth *</label>
+    <input type="date" required>
+
+    <label>Gender *</label>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+
+    <label>Aadhaar No:</label>
+    <input type="text">
+
+    <label>WhatsApp No *</label>
+    <input type="text" required>
+
+    <label>Email ID *</label>
+    <input type="email" required>
+
+    <label>Photo *</label>
+    <input type="file" required>
+
+    <div class="section">Residential Address Details</div>
+    <label>Applicant's Address *</label>
+    <textarea maxlength="20" required></textarea>
+
+    <label>District *</label>
+    <select>
+        <option>HYDERABAD</option>
+    </select>
+
+    <label>Mandal *</label>
+    <select>
+        <option>HYDERABAD</option>
+    </select>
+
+    <label>Village *</label>
+    <input type="text" value="HYDERABAD" required>
+
+    <label>Pincode *</label>
+    <input type="text" required>
+
+    <div class="section">Pass Type Details</div>
+    <label>City *</label>
+    <select>
+        <option>Hyderabad</option>
+    </select>
+
+    <label>Pass Type *</label>
+    <select>
+        <option>--Select--</option>
+    </select>
+
+    <div class="section">Mode of Payment & Pass Collection</div>
+    <label>Payment Mode *</label>
+    <select>
+        <option>Select Payment Mode</option>
+    </select>
+
+    <label>Pass Delivery Mode *</label>
+    <select>
+        <option>Select Pass Delivery Mode</option>
+    </select>
+
+    <label>Center at which you want to Collect Pass *</label>
+    <select>
+        <option>--Select--</option>
+    </select>
+
+    <div class="captcha">
+        <input type="text" required>
+        <img src="captcha.png" alt="CAPTCHA">
+    </div>
+
+    <div class="submit">Submit</div>
+</div>
+
+</body>
+</html>
